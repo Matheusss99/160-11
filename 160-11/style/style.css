@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/bg.png);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width: 750px;
+    height: 100px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 57px;
+    margin-left: 1080px;
+}
+.box p{
+    width: 492px;
+    font-size: 36px;
+    color: white;
+    margin: auto;
+}
+form{
+    width: 500px;
+    height: 100px;
+    margin: 50px auto;
+    right: 0;
+    margin-right: 340px;
+}
+form input{
+    width: 752px;
+    height: 70px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-bottom: 3px solid rgba(255, 255, 255, 1);
+    outline: none;
+}
+input[type="text"]{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    padding-left: 25px;
+    max-width : calc(500% - 25px);
+}
+.address{
+    margin-top: -10px;
+    font-size: 14px;
+    color: solid rgba(0, 0, 0, 1);
+}
+p input{
+    position: fixed;
+    width: 752px;
+    height: 153px;
+    margin-top: 200px;
+}
+.payment{
+    margin-top: 175px;
+    font-size: 14px;
+}
+.gender{
+    font-size: 20px;
+    width: 40%;
+    margin-top: 450px;
+    margin-left: 1000px;
+}
+.gender input[type="checkbox"]{
+    width: 8%;
+    height: 30px;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 160px;
+}
+input[type="submit"]{
+    background-color: rgba(1, 175, 140, 1);
+    font-size: 20px;
+    margin-top: 120px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+.box2{
+    width: 750px;
+    height: 394px;
+    background-color: rgba(2, 16, 16, 1);
+    border-radius: 20px;
+    margin-top: 57px;
+    margin-left: 1080px;
+    position: absolute;
+}
+.pirveli{
+    font-size: 30px;
+    margin-left: 180px;
+    color: white;
+    margin-top: 80px;
+}
+.meore{
+    font-size: 30px;
+    margin-left: 100px;
+    color: white;
+    margin-top: 30px;
+}
+.two{
+    font-size: 30px;
+    margin-left: 230px;
+    color: white;
+    margin-top: 5px;
+}
+.mesame{
+    font-size: 20px;
+    margin-left: 100px;
+    color: white;
+    margin-top: 50px;
+}
+.bolo{
+    position: absolute;
+    width: 750px;
+    height: 70px;
+    left: 1100px;
+    top: 851px;
+    background-color: rgba(245, 186, 34, 1);
+    border-bottom: 3px solid #000000;
+    border-radius: 18px;
+}
+.bolo p{
+    font-size: 20px;
+    margin: 20px 160px;
+}
